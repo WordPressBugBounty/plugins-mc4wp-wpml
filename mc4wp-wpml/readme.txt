@@ -2,12 +2,12 @@
 Contributors: Ibericode, DvanKooten, hchouhan, lapzor
 Donate link: https://mc4wp.com/#utm_source=wp-plugin-repo&utm_medium=mailchimp-for-wp&utm_campaign=donate-link
 Tags: mc4wp, wpml, mailchimp
-Requires at least: 3.7
-Tested up to: 6.8
-Stable tag: 1.0.5
+Requires at least: 4.5
+Tested up to: 7.0
+Stable tag: 1.0.6
 License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Requires PHP: 5.3
+License URI: http://www.gnu.org/licenses/gpl-2.0.htmlq
+Requires PHP: 7.4
 
 WPML integration for the Mailchimp for WordPress plugin.
 
@@ -41,6 +41,13 @@ More detailed documentation can be found in the [Mailchimp for WordPress knowled
 1. The settings page.
 
 == Changelog ==
+
+#### 1.0.6 - May 5, 2026
+
+- Bump required WordPress version to 4.5
+- Bump required PHP version to 7.4 
+- Handle dependency on [Mailchimp for WordPress](https://wordpress.org/plugins/mailchimp-for-wp/) through the "Requires Plugins" plugin file header.
+- Update tested WordPress version to 7.0.
 
 #### 1.0.5 - Aug 18, 2025
 
